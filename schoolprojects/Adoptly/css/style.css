@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}  
+
+/* NAV */
+.header {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+  background-color: #3a7ea3;
+}
+.nav ul {
+  margin: 0 auto;
+  font-size: 18px;
+}
+.nav ul li{
+  display: inline-block;
+  padding: 25px;
+  color: white;
+}
+.nav .main {
+  font-size: 28px;
+  background-color: #db2727;
+}
+
+/* Dog Background */
+.jumbotron {
+  height: 530px;
+  width: 100%;
+  text-align: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg");
+  background-clip: padding-box;
+  background-position: left;
+  margin: 0 auto;
+}
+.jumbotron h1 {
+  color: red;
+  font-weight: bold;
+}
+
+/* Supporting section */
+.supporting {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+.supporting h2 {
+  padding-top: 15px;
+}
+
+.btn {
+  border: 1px solid black;
+  width: 200px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+  
+/* FOOTER */
+.footer {
+  height: 120px;
+  background-color: red;
+  color: white;
+}
+
+.bottom {
+  padding: 50px;
+}
+
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}

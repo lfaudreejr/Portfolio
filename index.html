@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="Web devlopment, Web design, HTML, CSS, XML, JavaScript">
+<meta name="author"  content="Larry Faudree">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Larry Faudree Web Design</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">  <!-- The primary stylesheet  -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"> </script>  <!-- The Main JS -->
+<script src="js/sidenav.js"></script>
+</head>
+
+<body>
+
+<div class="header" id="home">  <!--HEADER WRAPPER -->
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand">Larry Faudree</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="topFixedNavbar1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">My Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#works">My Work</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>               
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+</div>
+    
+<div class="jumbotron">
+  <h1>Full Stack Web Development</h1>
+  <p>Learning in progress</p>
+</div>
+ 
+  
+<div class="container-fluid about" id="about">
+   <div class="row">
+     <div class="col-sm-3 me">
+    <img src="images/ME (2).jpg" alt="me" id="me">
+	   </div>
+     <div class="col-sm-9">
+	<h2>About Me</h2>
+	<p> I have been coding for roughly 2 months. I started on codecademy and am currently half way through their full-stack course. I just started on freecodecamp as well.</p>
+    <p> I started out by studying C# and then started getting into web languages and really enjoy it. I think it is so cool seeing your work come to life and I really enjoy the creativity and problem-solving nature of programming.</p>
+    <p> I am looking to keep on learning and improving my skills. My current occupation is in finance, but I would love to get into web development.</p>
+	   </div>
+  </div>
+</div>
+
+<div class="works" id="works">
+<h2>Check out my samples below</h2>
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="schoolprojects/Adoptly/index.html" target="_blank">
+        <img src="images/schoolProjects_Adoptly_index.png" alt="project image" style="width:100%">
+        <div class="caption">
+          <p>A Codecademy Project</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="schoolprojects/Bass/index.html" target="_blank">
+        <img src="images/choolProjects_Bass_index.png" alt="Nature" style="width:100%">
+        <div class="caption">
+          <p>A Codecademy Project</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="schoolprojects/Excursion_w_video/index.html" target="_blank">
+        <img src="images/schoolProjects_Excursion_w_video_index.png" alt="Fjords" style="width:100%">
+        <div class="caption">
+          <p>A Codecademy Project</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- <div class="works" id="works">
+  <h2>Check out my work below</h2>
+  <div class="row thumbsrow">
+   <div class="col-sm-4">
+     <div class="thumbnail">
+       <img src="images/dogs_screen_md.png" alt="adoptly" class="thumb">
+	  <div class="description">
+	    <p>Codecademy Project</p>
+	  </div>
+	 </div>
+   </div>
+   <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/headlines_screen_md.png" alt="headlines" class="thumb">
+	  <div class="description">
+	  <p>Codecademy Project</p>
+		  </div>
+	   </div>
+	</div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/newsroom_screen_md.png" alt="move" class="thumb">
+	  <div class="description">
+	  <p>Codecademy Project</p>
+		  </div>
+		  </div>
+	</div>
+  </div>
+</div>
+-->
+
+<div class="container-fluid bottom" id="contact">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact me and I'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Jacksonville, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> larry.faudree@larryfaudree.com</p> 
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+  
+
+<div class="footer">
+	<h2>Made By: <span>Larry Faudree &copy 2017</span></h2>
+	<p style="text-align: center"><a href="schoolprojects/Gamebook/index.html" target="_blank">Check out my game for codecademy javascript project</a></p>
+</div>
+
+</body>
+</html>
